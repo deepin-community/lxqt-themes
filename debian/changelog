@@ -1,0 +1,65 @@
+lxqt-themes (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+  * debian/lxqt-themes.install: ship new themes.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 15:46:13 +0800
+
+lxqt-themes (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version lxqt-build-tools (>= 0.6.0~)
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 14:57:29 +0100
+
+lxqt-themes (0.13.0-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.13.0.
+  * Bumped build dependency lxqt-build-tools to >= 0.5.0
+  * Added papirus-icon-theme to theme alternatives, papirus is now
+    the default alternative
+  * Bump year in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 24 May 2018 18:10:41 +0200
+
+lxqt-themes (0.12.0-4) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Removed cmake minimum version, not needed any longer
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped year in copyright
+  * Removed trailing whitespaces from changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 16:55:46 +0200
+
+lxqt-themes (0.12.0-3) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed branch from VCS fields
+  * Removed debian/gbp.conf
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 14 Dec 2017 23:28:35 +0100
+
+lxqt-themes (0.12.0-2) unstable; urgency=medium
+
+  * Switch to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 04 Dec 2017 01:27:23 +0100
+
+lxqt-themes (0.12.0-1) experimental; urgency=medium
+
+  * Initial release (Closes: #867606)
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 10 Oct 2017 18:16:26 +0200
