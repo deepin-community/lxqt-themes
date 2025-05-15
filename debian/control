@@ -1,26 +1,24 @@
 Source: lxqt-themes
-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
-Uploaders: Alf Gaida <agaida@siduction.org>,
-           Andrew Lee (李健秋) <ajqlee@debian.org>,
-           ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Maintainer: LXQt Packaging Team <team+lxqt@tracker.debian.org>
+Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>,
+           ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
+           Macy Lin <macy@debconf.org>
+Build-Depends: cmake,
+               debhelper-compat (= 13),
+               lxqt-build-tools (>= 2.0.0+really2.0.0~)
+Standards-Version: 4.7.0
 Section: x11
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
-               cmake,
-               lxqt-build-tools (>= 0.8.0~)
-Standards-Version: 4.4.0
 Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-themes
 Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-themes.git
 Homepage: https://github.com/lxqt/lxqt-themes
+Rules-Requires-Root: no
 
 Package: lxqt-themes
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends},
-         lxqt-system-theme
+Depends: lxqt-system-theme, ${misc:Depends}
 Provides: lxqt-theme
-Breaks: lxqt-common (<< 0.12.0)
-Replaces: lxqt-common (<< 0.12.0)
 Description: Themes for LXQt
  Some upstream themes for LXQt
   * Ambiance
@@ -29,14 +27,15 @@ Description: Themes for LXQt
   * KDE-Plasma
   * Light
   * System
+  * Silver
+  * Arch-colors
  .
  This Package contains LXQt theme files.
 
 Package: lxqt-system-theme
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends},
-         x11-utils
+Depends: x11-utils, ${misc:Depends}
 Recommends: papirus-icon-theme | breeze-icon-theme | faenza-icon-theme | oxygen-icon-theme
 Breaks: lxqt-common (<< 0.12.0)
 Replaces: lxqt-common (<< 0.12.0)

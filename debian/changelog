@@ -1,3 +1,84 @@
+lxqt-themes (2.1.0-1) unstable; urgency=medium
+
+  * New upstream version 2.1.0
+  * d/install: Update install files.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 07 Dec 2024 22:00:39 +0800
+
+lxqt-themes (2.0.0-1) unstable; urgency=medium
+
+  * Run wrap-and-sort.
+  * debian/copyright: added myself.
+  * Team upload to unstable.
+
+ -- Macy Lin <macy@debconf.org>  Mon, 02 Dec 2024 22:47:34 +0100
+
+lxqt-themes (2.0.0-1~exp1) experimental; urgency=medium
+
+  [ Severus Septimius ]
+  *  New upstream release 2.0.0
+  * debian/control: bump Standards-Version to 4.7.0, no changes needed.
+  * debian/control: bump dep on lxqt-build-tools (>= 2.0.0+really2.0.0~)
+
+  [ Andrew Lee (李健秋) ]
+  * debian/salsa-ci.yml: build against to experimental.
+  * Clean up of group membership after 2nd calls.
+  * debian/copyright: update.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 28 Sep 2024 19:49:15 +0200
+
+lxqt-themes (1.3.0-1) unstable; urgency=medium
+
+  * New upstream version 1.3.0
+  * debian/control: update team address.
+  * debian/control: bump to Standards-version to 4.6.2, no changes needed.
+  * debian/control: build-deps on lxqt-build-tools (>= 0.13.0~).
+  * debian/copyright: update.
+  * debian/upstream/metadata: drop obsolete field Name.
+  * debian/upstream/metadata: update url for git repo.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 02 Jul 2023 09:25:15 +0200
+
+lxqt-themes (1.2.0-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Remove obsolete field Name from debian/upstream/metadata (already present in
+    machine-readable debian/copyright).
+  * Avoid explicitly specifying -Wl,--as-needed linker flag.
+
+  [ ChangZhuo Chen (陳昌倬) ]
+
+  * New upstream release.
+  * Merge to unstable.
+  * Sort d/control.
+  * Sort and fix d/copyright.
+  * Update d/watch for GitHub.
+  * Remove unnecessary --fail-missing.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 04 Dec 2022 01:03:44 +0800
+
+lxqt-themes (1.1.0-1) experimental; urgency=medium
+
+  [ Aaron Rainbolt ]
+  * New upstream release 1.1.0.
+  * Removed obsolete debian/compat file.
+  * Switched to GBP.
+  * Created debian/upstream/metadata.
+  * Upstreamed non-Ubuntu-specific packaging changes from Ubuntu, modifying
+    the following files:
+    - control
+    - copyright
+    - *.install
+    - rules
+    - upstream/signing-key.asc
+
+  [ Simon Quigley ]
+  * Fix some various merge errors.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sat, 09 Jul 2022 23:16:23 -0500
+
 lxqt-themes (0.16.0-1) unstable; urgency=medium
 
   [ Alf Gaida ]
